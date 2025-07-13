@@ -56,10 +56,6 @@ desktop.ini
 # Rider
 *.DotSettings
 
-# Build output (если ты билдил)
-DOBuild1/
-DarkOperations/
-
 # Кэш Unity
 *.pidb
 *.booproj
