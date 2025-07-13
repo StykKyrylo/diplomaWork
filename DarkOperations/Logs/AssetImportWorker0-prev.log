@@ -1,0 +1,932 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.10f1 (3c681a6c22ff) revision 3958810'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-07-12T13:33:22Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Labs/Study/4 year/2 Semester/DiplomaWork/DarkOperations
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63553
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Labs/Study/4 year/2 Semester/DiplomaWork/DarkOperations
+D:/Labs/Study/4 year/2 Semester/DiplomaWork/DarkOperations
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2112]  Target information:
+
+Player connection [2112]  * "[IP] 192.168.31.211 [Port] 0 [Flags] 2 [Guid] 4248934351 [EditorId] 4248934351 [Version] 1048832 [Id] WindowsEditor(7,Kirill) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2112] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2112] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.10f1 (3c681a6c22ff)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Labs/Study/4 year/2 Semester/DiplomaWork/DarkOperations/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:          NVIDIA
+    VRAM:            3937 MB
+    App VRAM Budget: 3346 MB
+    Driver:          32.0.15.7688
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002284 seconds.
+- Loaded All Assemblies, in  0.537 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 1007ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (205ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.133 seconds
+Domain Reload Profiling: 2106ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (210ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1134ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (893ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (642ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5970 unused Assets / (4.9 MB). Loaded Objects now: 6663.
+Memory consumption went from 159.3 MB to 154.5 MB.
+Total: 14.055800 ms (FindLiveObjects: 1.262100 ms CreateObjectMapping: 1.500200 ms MarkObjects: 7.441400 ms  DeleteObjects: 3.848300 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 21.775 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.928 seconds
+Domain Reload Profiling: 23703ms
+	BeginReloadAssembly (2512ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (1118ms)
+	RebuildNativeTypeToScriptingClass (7348ms)
+	initialDomainReloadingComplete (9030ms)
+	LoadAllAssembliesAndSetupDomain (1766ms)
+		LoadAssemblies (3295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (839ms)
+			TypeCache.Refresh (493ms)
+				TypeCache.ScanAssembly (454ms)
+			BuildScriptInfoCaches (283ms)
+			ResolveRequiredComponents (55ms)
+	FinalizeReload (1929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (1119ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Shader 'HDRP/TerrainLit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7912 unused Assets / (40.7 MB). Loaded Objects now: 8327.
+Memory consumption went from 230.0 MB to 189.3 MB.
+Total: 40.085400 ms (FindLiveObjects: 1.433700 ms CreateObjectMapping: 2.525100 ms MarkObjects: 8.650500 ms  DeleteObjects: 27.472400 ms)
+
+Prepare: number of updated asset objects reloaded= 56
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 309 unused Assets / (29.9 MB). Loaded Objects now: 8327.
+Memory consumption went from 225.0 MB to 195.1 MB.
+Total: 29.252400 ms (FindLiveObjects: 0.934200 ms CreateObjectMapping: 1.107700 ms MarkObjects: 10.064000 ms  DeleteObjects: 17.144200 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.374 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.103 seconds
+Domain Reload Profiling: 2478ms
+	BeginReloadAssembly (614ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (670ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1103ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (881ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (611ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8199 unused Assets / (48.7 MB). Loaded Objects now: 8406.
+Memory consumption went from 242.1 MB to 193.4 MB.
+Total: 30.745300 ms (FindLiveObjects: 1.262500 ms CreateObjectMapping: 1.425300 ms MarkObjects: 6.196100 ms  DeleteObjects: 21.859400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 87089.984945 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e7ad5910b1f6ca9bcb10df850df7def') in 0.0409708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 341 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 340 unused Assets / (30.5 MB). Loaded Objects now: 8411.
+Memory consumption went from 226.7 MB to 196.2 MB.
+Total: 21.390000 ms (FindLiveObjects: 0.773400 ms CreateObjectMapping: 0.673900 ms MarkObjects: 7.608100 ms  DeleteObjects: 12.331600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.785534 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0007311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.908745 seconds.
+  path: Assets/FPS Framework
+  artifactKey: Guid(09726eba1665c7741a7797178adc1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework using Guid(09726eba1665c7741a7797178adc1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a728569ec0401b84aedcdad646cfb7f3') in 0.0012901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.291408 seconds.
+  path: Assets/FPS Framework/Scenes
+  artifactKey: Guid(1fd1b0f10d5017a449606d5dcec20c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes using Guid(1fd1b0f10d5017a449606d5dcec20c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b072d5b8d17cbefb16ed01e15bec874') in 0.0009958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.328625 seconds.
+  path: Assets/FPS Framework/Scenes/Loading.unity
+  artifactKey: Guid(75e5571c0de96ac4a84aadc041f9d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Loading.unity using Guid(75e5571c0de96ac4a84aadc041f9d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd68120093b9428d88699f64119a05290') in 0.0007093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.004 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.635 seconds
+Domain Reload Profiling: 2640ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (475ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (269ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (1059ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 339 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8150 unused Assets / (41.7 MB). Loaded Objects now: 8447.
+Memory consumption went from 232.5 MB to 190.7 MB.
+Total: 25.739800 ms (FindLiveObjects: 1.045500 ms CreateObjectMapping: 1.295400 ms MarkObjects: 6.637100 ms  DeleteObjects: 16.758900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 48.686641 seconds.
+  path: Assets/FPS Framework/Scenes/Main Menu.unity
+  artifactKey: Guid(ac101b9ed944cf947b30259ece7eb5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Main Menu.unity using Guid(ac101b9ed944cf947b30259ece7eb5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c86e44867ef561003c86eb3a3e94d32f') in 0.002152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.796542 seconds.
+  path: Assets/FPS Framework/Scenes/Demo.unity
+  artifactKey: Guid(c604dab8d2dc4c845b0a15de6b5edc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Demo.unity using Guid(c604dab8d2dc4c845b0a15de6b5edc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a35eeb9171692287a6d89e4fd4fd79d4') in 0.0007791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.563292 seconds.
+  path: Assets/FPS Framework/Scenes/Game.unity
+  artifactKey: Guid(c604dab8d2dc4c845b0a15de6b5edc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Game.unity using Guid(c604dab8d2dc4c845b0a15de6b5edc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94db779bb677b792ccf603fc99761387') in 0.0008601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7156.688860 seconds.
+  path: Assets/FPS Framework/Scenes/Demo_Profiles
+  artifactKey: Guid(3a2ab8a3bbd091f4aa9486425df2f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Demo_Profiles using Guid(3a2ab8a3bbd091f4aa9486425df2f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a050f87a27c0f3f5789c3057830fd23') in 0.0008433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350578 seconds.
+  path: Assets/FPS Framework/Scenes/Demo_Profiles/Global Volume Profile.asset
+  artifactKey: Guid(9d10ac6d81882c041a9ac5b3c2b10f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Demo_Profiles/Global Volume Profile.asset using Guid(9d10ac6d81882c041a9ac5b3c2b10f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c186cadadf62d88eb70e352202408c06') in 0.0288128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.227639 seconds.
+  path: Assets/FPS Framework/Scenes/Game
+  artifactKey: Guid(25b4a529762855f4ea1786c8e1d81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Game using Guid(25b4a529762855f4ea1786c8e1d81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '418337fb1e8a180cbb68582b2a98dccc') in 0.0007862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076070 seconds.
+  path: Assets/FPS Framework/Scenes/Game/LightingData.asset
+  artifactKey: Guid(af33d45728b2ff54aad24e1bf7f08329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Game/LightingData.asset using Guid(af33d45728b2ff54aad24e1bf7f08329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '230a3bf0f57ff78158c1155395afd26e') in 0.0017745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.608039 seconds.
+  path: Assets/FPS Framework/Scenes/Main Menu
+  artifactKey: Guid(774d6eccae64d3f418518fdd68f97273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Main Menu using Guid(774d6eccae64d3f418518fdd68f97273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1197b56e0e109f6a44824c70c06e3c5c') in 0.0005938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056885 seconds.
+  path: Assets/FPS Framework/Scenes/Main Menu/LightingData.asset
+  artifactKey: Guid(e4b34ee0081a03948a3eb47862ff111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/Scenes/Main Menu/LightingData.asset using Guid(e4b34ee0081a03948a3eb47862ff111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7871497fdb3d0a49bfb5c98c04cf04') in 0.0019994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.963587 seconds.
+  path: Assets/FPS Framework/UI/Fonts
+  artifactKey: Guid(b09d8a0fdb4bb4f41b232779aa674da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts using Guid(b09d8a0fdb4bb4f41b232779aa674da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63813a4e1e54f50f6fe3d559becea0f0') in 0.0007173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.496183 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Anton
+  artifactKey: Guid(55c1f9ab12e87da4d99f8e1282d951fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Anton using Guid(55c1f9ab12e87da4d99f8e1282d951fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0bbb15903bd028fb53dd2e0279c525') in 0.0006433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070965 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Anton/Anton-Regular.ttf
+  artifactKey: Guid(10b0637899099464dad048fbeb7801d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Anton/Anton-Regular.ttf using Guid(10b0637899099464dad048fbeb7801d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11d213fce1c0829d4cf4e39ba1da9bb2') in 0.227993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.749794 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald
+  artifactKey: Guid(34d7e55f04861514580870edcfe0c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald using Guid(34d7e55f04861514580870edcfe0c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5a9cd8ee4ce628fd0ffda89e0327e10') in 0.0009149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133940 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald/Oswald-VariableFont_wght.ttf
+  artifactKey: Guid(bb67c21c3639463448ce20bbd2786d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald/Oswald-VariableFont_wght.ttf using Guid(bb67c21c3639463448ce20bbd2786d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '953c0fabf7d8ea6a2ea65c5efc2542e2') in 0.018383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.051494 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald/static
+  artifactKey: Guid(96100cc677e95cd4fbe111f0290ee12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald/static using Guid(96100cc677e95cd4fbe111f0290ee12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e081924795c6fb2bcead0ecc7cb9bd') in 0.0008459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116362 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Bold.ttf
+  artifactKey: Guid(4beac034149382b44b207becc3614ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Bold.ttf using Guid(4beac034149382b44b207becc3614ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '743c78c64d6b3bef84aaf8ac749fdc8f') in 0.0212105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Light.ttf
+  artifactKey: Guid(85439614e643a1b41a99cb409c186066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Light.ttf using Guid(85439614e643a1b41a99cb409c186066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d7c94ec49e38d91b5dfb4098c275c60') in 0.0228995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Light SDF.asset
+  artifactKey: Guid(e35107041e43ae5469e93eba1c3fff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Light SDF.asset using Guid(e35107041e43ae5469e93eba1c3fff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d1078bc587be11ecacf0b729ab5e649') in 0.189886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-ExtraLight SDF.asset
+  artifactKey: Guid(024733752c22a304bb356ea5e3251194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-ExtraLight SDF.asset using Guid(024733752c22a304bb356ea5e3251194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66982b52db2963bfb16c37dbbdbe531d') in 0.133719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Medium.ttf
+  artifactKey: Guid(55a6149c9add8bb4bb94ae786d8a3426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Oswald/static/Oswald-Medium.ttf using Guid(55a6149c9add8bb4bb94ae786d8a3426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3c76e6b4441dd6f29146e85f44d7136') in 0.0162394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.260080 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto
+  artifactKey: Guid(b9d80bca9dace8d499a5d88c710d103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto using Guid(b9d80bca9dace8d499a5d88c710d103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e716e20f69bd393bac89d97cde3a8be6') in 0.0006234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176457 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Black.ttf
+  artifactKey: Guid(3db88b0731e58384caf1b88535882f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Black.ttf using Guid(3db88b0731e58384caf1b88535882f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be69b67b9db7b0aaa59038812f53e4d5') in 0.0182625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Thin SDF.asset
+  artifactKey: Guid(89da0f81429c52640bd1da14c79ae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Thin SDF.asset using Guid(89da0f81429c52640bd1da14c79ae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05591c562be14eb99d04d9c0c352ccd5') in 0.0738147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-ThinItalic SDF.asset
+  artifactKey: Guid(e224336e0ed74fb4a819624ce6cc8cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-ThinItalic SDF.asset using Guid(e224336e0ed74fb4a819624ce6cc8cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff3f4873363960ad45d85761a9e9f45b') in 0.0675914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Light.ttf
+  artifactKey: Guid(a6fcfb23269f53c42aed626abaae38c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Light.ttf using Guid(a6fcfb23269f53c42aed626abaae38c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba3c34478cfde115b5dcad1b648bf437') in 0.0320067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-BoldItalic SDF.asset
+  artifactKey: Guid(484ebb3d8dbd8a2448f54d70e4f16ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-BoldItalic SDF.asset using Guid(484ebb3d8dbd8a2448f54d70e4f16ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaa2a4705acbc5890abeed7fadbf283b') in 0.1059744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Regular.ttf
+  artifactKey: Guid(e45eec254e6656f48b4522314184fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Regular.ttf using Guid(e45eec254e6656f48b4522314184fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0912897497b79a29c64b803ed5b1b0e3') in 0.0278655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Thin.ttf
+  artifactKey: Guid(302ecdee46c25dc47996858d32ebef9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Thin.ttf using Guid(302ecdee46c25dc47996858d32ebef9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8776d7f593b9b9cf9a307b91b8d4ecf0') in 0.0316825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Medium.ttf
+  artifactKey: Guid(dba1fc78048a4fc43b1ef68cfb71aee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Medium.ttf using Guid(dba1fc78048a4fc43b1ef68cfb71aee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bc3e8f65465bda77300ea5e5a83939e') in 0.0205157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-BlackItalic SDF.asset
+  artifactKey: Guid(0b5690883173a46478b101d3d61ff829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-BlackItalic SDF.asset using Guid(0b5690883173a46478b101d3d61ff829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f5fb02802244cf236b562766acd851f') in 0.0884831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-LightItalic.ttf
+  artifactKey: Guid(709b6e1840d9c8042b65ed3f9eca11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-LightItalic.ttf using Guid(709b6e1840d9c8042b65ed3f9eca11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5504f4cd87443994d2c72d42bd2c8ce') in 0.0286325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Light SDF.asset
+  artifactKey: Guid(c51dd2fe6113cd242b1d6a8d89443bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Light SDF.asset using Guid(c51dd2fe6113cd242b1d6a8d89443bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f0b0b599a20aa6f075cbc8099ddcc84') in 0.0798139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Bold.ttf
+  artifactKey: Guid(ab3c0839e9bc7514ebb3685d856325d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Bold.ttf using Guid(ab3c0839e9bc7514ebb3685d856325d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df59841e537ade0e52949e158a9f85c6') in 0.019259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Italic SDF.asset
+  artifactKey: Guid(b789ae05fc438e84392a0c1243b85f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Roboto/Roboto-Italic SDF.asset using Guid(b789ae05fc438e84392a0c1243b85f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a801ddcbddb94cdfaee195ee041e9b6f') in 0.0784032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.221918 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun
+  artifactKey: Guid(3e0de10033a461c46b0a49a16017b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun using Guid(3e0de10033a461c46b0a49a16017b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88b5763ef26f42d41f0aafb2289f4f35') in 0.0008574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192000 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Bold.ttf
+  artifactKey: Guid(6ec216381c7395045af81b4fea9824ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Bold.ttf using Guid(6ec216381c7395045af81b4fea9824ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b5ccdaddd69d4ec104d351842d2d373') in 0.0171864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-MediumItalic.ttf
+  artifactKey: Guid(929ca3d1f0383b7418a3f8f75521225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-MediumItalic.ttf using Guid(929ca3d1f0383b7418a3f8f75521225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b44f6327b8c3f22225b69818d87676b2') in 0.0263901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Thin.ttf
+  artifactKey: Guid(cfa96787262c18e4d841201f31f9d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Thin.ttf using Guid(cfa96787262c18e4d841201f31f9d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '007176a35c821ce71f753b6804ae8797') in 0.0401238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraBold.ttf
+  artifactKey: Guid(128ec4e4ff3ee0f44928f5becff10918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraBold.ttf using Guid(128ec4e4ff3ee0f44928f5becff10918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7de0d8b5fdca0e303bd34a56bb551e1') in 0.0272611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-MediumItalic SDF.asset
+  artifactKey: Guid(6685e87868a92b24694cea5ff9897e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-MediumItalic SDF.asset using Guid(6685e87868a92b24694cea5ff9897e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df7e9873cd560c656aa8ee8ce773b64d') in 0.0894503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-LightItalic SDF.asset
+  artifactKey: Guid(b0c1165bda5cb4242bbca9e809f70c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-LightItalic SDF.asset using Guid(b0c1165bda5cb4242bbca9e809f70c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52a3ba0e97a966d364c057dc395b20e0') in 0.0761436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ThinItalic.ttf
+  artifactKey: Guid(07a9defb6ee2b1f4bae7bbf6a043ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ThinItalic.ttf using Guid(07a9defb6ee2b1f4bae7bbf6a043ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13c81fa0724eedb61f3823f5a1c7ef49') in 0.0202957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Regular.ttf
+  artifactKey: Guid(952f3c656ff8c104db128f8f02a53963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Regular.ttf using Guid(952f3c656ff8c104db128f8f02a53963) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c529bca7ccd6ec5c2a5d2933680f9ad5') in 0.0251555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraBoldItalic.ttf
+  artifactKey: Guid(8bc57c32bf28bcc4b8669d1874542d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraBoldItalic.ttf using Guid(8bc57c32bf28bcc4b8669d1874542d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a96f04a00219434e59a257854a42e965') in 0.0199732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraLight SDF.asset
+  artifactKey: Guid(fb44eca06bc742f4d8bce9846f578e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraLight SDF.asset using Guid(fb44eca06bc742f4d8bce9846f578e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c335b5300044d978d6d01b5a8815357') in 0.0784922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Medium.ttf
+  artifactKey: Guid(692cdfa5b45d343478a43e10175f31a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Medium.ttf using Guid(692cdfa5b45d343478a43e10175f31a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68a0d819e4b17c6a7c463d3fe8f008de') in 0.0195408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraLightItalic.ttf
+  artifactKey: Guid(2cb9ab456e5caac4abf87214d79447ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraLightItalic.ttf using Guid(2cb9ab456e5caac4abf87214d79447ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e98122875d398cbf5058e06b3fb4bc89') in 0.0267342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ThinItalic SDF.asset
+  artifactKey: Guid(ec72a89740662e9468565c34d66b902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ThinItalic SDF.asset using Guid(ec72a89740662e9468565c34d66b902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f994271ee07969978fc01a2c5ab3cabb') in 0.0746925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-LightItalic.ttf
+  artifactKey: Guid(bb957fba393785943945257e282c9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-LightItalic.ttf using Guid(bb957fba393785943945257e282c9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86f1d3e21a6988faa1072973968576e6') in 0.0180991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraBold SDF.asset
+  artifactKey: Guid(2f766af2f2df0b542b9d959380efe21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-ExtraBold SDF.asset using Guid(2f766af2f2df0b542b9d959380efe21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09d4a7cf6e2fea44663aa549afb67225') in 0.0731143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Italic SDF.asset
+  artifactKey: Guid(7cc15f54b16fe204f956b0200638f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Italic SDF.asset using Guid(7cc15f54b16fe204f956b0200638f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8896d8963f5985810bc1f96e5e4beaff') in 0.0728427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Light.ttf
+  artifactKey: Guid(e8ed7feaff224af41b72a997d8b87633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Light.ttf using Guid(e8ed7feaff224af41b72a997d8b87633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7d6095ac23a0edf803533d4caf2710c') in 0.0201115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Light SDF.asset
+  artifactKey: Guid(82cae5df3d42b3c4a835cad824a61561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/Fonts/Sarabun/Sarabun-Light SDF.asset using Guid(82cae5df3d42b3c4a835cad824a61561) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df7ed7a08a25cc3f03a28f6f2d84b6b8') in 0.0772485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.670060 seconds.
+  path: Assets/FPS Framework/UI/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441aa3e92cda27c68af8a1706ee847ab') in 0.0006788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.203596 seconds.
+  path: Assets/FPS Framework/UI/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac0c73b753e38a88d697cd4da4ad6f66') in 0.0015548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013579 seconds.
+  path: Assets/FPS Framework/UI/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Framework/UI/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3dfbd87d0898f48e9ae5bdc20d67704') in 0.0016138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.358352 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(1c20d0f966180c04a8c6a24ecff4689e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(1c20d0f966180c04a8c6a24ecff4689e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca90791be3e1f6d03a34a5ee516bdbf0') in 0.0817497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.076237 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b6aaa226b3d0d00dfde64e0e375e5aa') in 0.4056976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fa69bab69e75f2e6e5702ca85e6c7b6') in 0.2810169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
