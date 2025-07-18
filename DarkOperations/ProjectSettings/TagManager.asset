@@ -4,24 +4,37 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Laser Line
+  - BodyPart
+  - Projectile
+  - WeaponManager
+  - Enemy
+  - GameManager
+  - ItemManager
+  - Concrete
+  - Metal
+  - Dirt
+  - Wood
+  - Water
+  - AI
+  - Remote
+  - IgnoreBullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - No Player Collision
+  - 
   - Water
   - UI
   - 
   - 
+  - Weapons
   - Player
+  - MiniMap
+  - PostEffects
+  - Local
+  - Zone
   - 
-  - 
-  - Post-Procssing
-  - FPS Object
-  - Enviroment
-  - 
-  - Iteractable
+  - Vehicle
   - 
   - 
   - 
