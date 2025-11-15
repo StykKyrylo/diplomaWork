@@ -1,39 +1,45 @@
-
 name: .NET CI (Unit Tests & Linter)
 
 on:
   push:
-    branches: [ main ] 
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
 jobs:
-  build-and-test:
-    runs-on: ubuntu-latest 
-
+  build-and-test: # Перша робота
+    runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: tests 
-
+        working-directory: ./tests 
     steps:
- 
     - uses: actions/checkout@v3
-
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '6.0.x' 
-
     - name: Install dependencies
       run: dotnet restore
-
     - name: Run Linter (Check format)
       run: dotnet format --verify-no-changes --verbosity diagnostic
-
     - name: Build
       run: dotnet build --no-restore
-
-
     - name: Run Unit Tests
       run: dotnet test --no-build --verbosity normal
+
+  # Нова робота для запуску пайплайну в іншому репозиторії
+  trigger-ui-tests:
+    needs: build-and-test
+    
+   
+    if: github.ref == 'refs/heads/main'
+    
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger UI Tests Workflow
+        run: |
+          curl -L -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.PIPELINE_TRIGGER_TOKEN }}" \
+          "https://api.github.com/repos/StykKyrylo/diplomaWork-ui-tests/actions/workflows/selenium-ci.yml/dispatches" \
+          -d '{"ref":"main"}'
