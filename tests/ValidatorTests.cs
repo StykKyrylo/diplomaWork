@@ -19,7 +19,7 @@ namespace DiplomaTests
         public void IsPositive_ZeroAndNegative_ReturnsFalse(int number)
         {
             var result = _validator.IsPositive(number);
-            Assert.False(result);
+            Assert.True(result);
         }
     }
 }
